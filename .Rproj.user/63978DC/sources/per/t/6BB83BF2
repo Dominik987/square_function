@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541181909462.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "623232072",
+    "id" : "6BB83BF2",
+    "lastKnownWriteTime" : 1541182538,
+    "last_content_update" : 1541182538801,
+    "path" : "~/Square/man/Square.Rd",
+    "project_path" : "man/Square.Rd",
+    "properties" : {
+        "cursorPosition" : "26,0",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

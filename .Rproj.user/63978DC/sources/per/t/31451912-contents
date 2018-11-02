@@ -1,0 +1,41 @@
+\name{read_dta{haven}}
+\alias{read_dta{haven}}
+
+\title{
+read_dta{haven}
+}
+\description{
+Currently haven can read and write logical, integer, numeric, character and factors. See labelled() for how labelled variables in Stata are handled in R.
+}
+\usage{
+read_dta(file, encoding = NULL)
+}
+\arguments{
+  \item{file}{
+Either a path to a file, a connection, or literal data (either a single string or a raw vector).
+Files ending in .gz, .bz2, .xz, or .zip will be automatically uncompressed. Files starting with http://, https://, ftp://, or ftps:// will be automatically downloaded. Remote gz files can also be automatically downloaded and decompressed.
+Literal data is most useful for examples and tests. It must contain at least one new line to be recognised as data (instead of a path).
+}
+\item{encoding}{
+The character encoding used for the file. Generally, only needed for Stata 13 files and earlier. See Encoding section for details.
+}
+}
+\value{
+A tibble, data frame variant with nice defaults.
+
+Variable labels are stored in the "label" attribute of each variable. It is not printed on the console, but the RStudio viewer will show it.
+}
+
+\author{
+Dominik Wiedmann, \email{dominiwi@student.ethz.ch}
+}
+
+\examples{
+path <- system.file("examples", "iris.dta", package = "haven")
+read_dta(path)
+
+tmp <- tempfile(fileext = ".dta")
+read_dta(tmp)
+}
+\keyword{ methods }
+

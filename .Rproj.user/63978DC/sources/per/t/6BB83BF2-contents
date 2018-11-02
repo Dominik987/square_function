@@ -1,0 +1,26 @@
+\name{Square}
+\alias{Square}
+\title{Calculates the square of a number}
+
+\description{
+This package provides a function that can calculate the square of a number and then output the result
+}
+
+\usage{
+square_function(x)
+}
+
+\arguments{
+  \item{x}{a numeric or complex vector or array.}
+}
+
+\author{
+Dominik Wiedmann, \email{dominiwi@student.ethz.ch}
+}
+
+\examples{
+x <- 9
+square_function(x)
+}
+
+\keyword{ calculation }

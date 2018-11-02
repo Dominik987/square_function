@@ -1,0 +1,9 @@
+{
+    "path" : "~/Square/man",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

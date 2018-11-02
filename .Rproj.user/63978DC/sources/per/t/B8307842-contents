@@ -1,0 +1,10 @@
+Package: Square
+Type: Package
+Title: Calculates the square of a number
+Version: 0.0.1
+Author: Dominik Wiedmann [aut,cre]
+Maintainer: Dominik Wiedmann <dominik.wiedmann@uzh.ch>
+Description: The function calculates the square of a number and outputs it
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
